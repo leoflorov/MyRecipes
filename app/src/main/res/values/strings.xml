@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Мои рецепты</string>
+
+    <string name="hello_world">Привет Мир!</string>
+    <string name="action_settings">Настройки</string>
+    <string name="app_name_main">Мои рецепты</string>
+    <string name="categories">Категории</string>
+    <string name="favorites">Избранное</string>
+    <string name="add_recipe">Добавить рецепт</string>
+    <string name="settings">Настройки</string>
+    <string name="about_app">О программе</string>
+</resources>

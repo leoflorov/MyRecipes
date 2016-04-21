@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+    <ImageButton
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/imageButton"
+        android:src="@drawable/soup"
+        android:clickable="false"
+        android:scaleType="fitCenter"
+        android:layout_marginLeft="5dp"
+        android:layout_row="0"
+        android:layout_column="0" />
+
+    <ImageButton
+        android:layout_width="200dp"
+        android:layout_height="228dp"
+        android:id="@+id/imageButton2"
+        android:src="@drawable/salad"
+        android:scaleType="fitCenter"
+        android:layout_marginRight="5dp"
+        android:layout_row="0"
+        android:layout_column="1" />
+
+    <ImageButton
+        android:layout_width="200dp"
+        android:layout_height="207dp"
+        android:id="@+id/imageButton3"
+        android:src="@drawable/vtoroe"
+        android:scaleType="fitCenter"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:layout_columnSpan="3"
+        android:layout_marginLeft="5dp" />
+
+
+
+
+    <Button
+        android:layout_width="198dp"
+        android:layout_height="wrap_content"
+        android:text="New Button"
+        android:id="@+id/button"
+        android:layout_row="22"
+        android:layout_column="0" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton4"
+        android:layout_row="23"
+        android:layout_column="0" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton5"
+        android:layout_row="24"
+        android:layout_column="0" />
+
+</GridLayout>
+    </ScrollView>
