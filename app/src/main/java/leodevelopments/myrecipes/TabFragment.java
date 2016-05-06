@@ -11,9 +11,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-/**
- * Created by Ratan on 7/27/2015.
- */
 public class TabFragment extends Fragment {
 
     public static TabLayout tabLayout;

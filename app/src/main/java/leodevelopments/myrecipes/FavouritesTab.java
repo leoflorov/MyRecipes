@@ -7,9 +7,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-/**
- * Created by Ratan on 7/29/2015.
- */
 public class FavouritesTab extends Fragment {
 
     @Nullable
@@ -17,6 +14,4 @@ public class FavouritesTab extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         return inflater.inflate(R.layout.favorites_layout,null);
     }
-
-
 }
