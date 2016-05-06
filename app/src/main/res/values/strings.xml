@@ -4,6 +4,7 @@
     <string name="hello_world">Привет Мир!</string>
     <string name="action_settings">Настройки</string>
     <string name="app_name_main">Мои рецепты</string>
+    <string name="appbar_name_salads">Салаты</string>
     <string name="categories">Категории</string>
     <string name="favorites">Избранное</string>
     <string name="add_recipe">Добавить рецепт</string>
