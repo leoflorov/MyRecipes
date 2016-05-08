@@ -1,44 +1,78 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="horizontal"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_height="fill_parent"
+    android:background="@color/light_green"
+    android:orientation="horizontal"
+    android:clickable="true"
+    android:fillViewport="false"
+    android:focusable="false"
+    android:focusableInTouchMode="false">
 
-<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content">
-
-    <ImageButton
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:id="@+id/imageButton3"
-        android:src="@drawable/vtoroe"
-        android:scaleType="fitCenter"
-        android:layout_row="0"
-        android:layout_column="0"
-        android:translationZ="10dp" />
+        android:layout_height="wrap_content">
 
-    <ImageButton
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:id="@+id/imageButton2"
-        android:src="@drawable/salad"
-        android:scaleType="fitCenter"
-        android:layout_row="1"
-        android:layout_column="0"
-        android:translationZ="10dp" />
-
-    <ImageButton
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:id="@+id/imageButton"
-        android:src="@drawable/soup"
-        android:clickable="true"
-        android:scaleType="fitCenter"
-        android:layout_row="1"
-        android:layout_column="1"
-        android:translationZ="10dp" />
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
 
-</TableLayout>
-    </ScrollView>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:text="New Button"
+                android:id="@+id/button"
+                android:drawableTop="@drawable/salad"
+                android:layout_weight="1" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:text="New Button"
+                android:id="@+id/button2"
+                android:drawableTop="@drawable/soup"
+                android:layout_weight="1" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New Button"
+                android:id="@+id/button4"
+                android:layout_weight="1" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New Button"
+                android:id="@+id/button3"
+                android:layout_weight="1" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New Button"
+                android:id="@+id/button5"
+                android:layout_weight="1" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New Button"
+                android:id="@+id/button6"
+                android:layout_weight="1" />
+        </TableRow>
+
+    </TableLayout>
+
+</ScrollView>
