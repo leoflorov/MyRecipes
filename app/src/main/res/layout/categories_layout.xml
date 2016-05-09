@@ -18,59 +18,119 @@
             android:layout_height="match_parent">
 
 
-            <Button
+            <ImageButton
                 android:layout_width="wrap_content"
-                android:layout_height="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton"
+                android:src="@drawable/salad_cat"
+                android:scaleType="fitCenter"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton2"
+                android:src="@drawable/soup_cat"
+                android:scaleType="fitCenter"
+                android:layout_weight="1" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:text="New Button"
                 android:id="@+id/button"
-                android:drawableTop="@drawable/salad"
-                android:layout_weight="1" />
-
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="200dp"
-                android:text="New Button"
-                android:id="@+id/button2"
-                android:drawableTop="@drawable/soup"
-                android:layout_weight="1" />
+                android:layout_column="0" />
         </TableRow>
 
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <Button
+            <ImageButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="New Button"
-                android:id="@+id/button4"
-                android:layout_weight="1" />
+                android:id="@+id/imageButton3"
+                android:layout_weight="1"
+                android:src="@drawable/meat_cat"
+                android:scaleType="fitCenter" />
 
-            <Button
+            <ImageButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="New Button"
-                android:id="@+id/button3"
-                android:layout_weight="1" />
+                android:id="@+id/imageButton4"
+                android:layout_weight="1"
+                android:src="@drawable/chicken_cat"
+                android:scaleType="fitCenter" />
         </TableRow>
 
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <Button
+            <ImageButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="New Button"
-                android:id="@+id/button5"
+                android:id="@+id/imageButton5"
+                android:layout_weight="1"
+                android:src="@drawable/vtoroe_cat"
+                android:scaleType="fitCenter" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton6"
+                android:layout_weight="1"
+                android:src="@drawable/fish_cat"
+                android:scaleType="fitCenter" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton7"
+                android:layout_weight="1"
+                android:src="@drawable/vegetables_cat"
+                android:scaleType="fitCenter" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton8"
+                android:layout_weight="1"
+                android:src="@drawable/vypechka_cat"
+                android:scaleType="fitCenter" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/drinksButton"
+                android:src="@drawable/drinks_cat"
+                android:scaleType="fitCenter"
                 android:layout_weight="1" />
 
-            <Button
+            <ImageButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="New Button"
-                android:id="@+id/button6"
-                android:layout_weight="1" />
+                android:id="@+id/imageButton10"
+                android:src="@drawable/prazdniki_cat"
+                android:layout_weight="1"
+                android:scaleType="fitCenter" />
         </TableRow>
 
     </TableLayout>
