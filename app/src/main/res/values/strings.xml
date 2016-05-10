@@ -11,4 +11,7 @@
     <string name="settings">Настройки</string>
     <string name="about_app">О программе</string>
     <string name="saladTxt">Салаты</string>
+    <string name="salad_descr">Салаты</string>
+    <string name="add_recipe_logo">Добавить\nрецепт</string>
+    <string name="last_recipes_logo">Последние\nрецепты</string>
 </resources>

@@ -16,6 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".SaladGroupActivity"
+            android:label="@string/appbar_name_salads">
+        </activity>
     </application>
 
 </manifest>

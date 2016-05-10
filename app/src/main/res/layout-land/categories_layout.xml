@@ -18,7 +18,7 @@
         android:visibility="visible">
 
         <TableRow
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content">
 
 
@@ -27,41 +27,25 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/imageButton"
                 android:src="@drawable/salad_cat"
-                android:scaleType="fitCenter" />
+                android:scaleType="fitCenter"
+                android:layout_weight="0.35" />
 
             <ImageButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/imageButton2"
                 android:src="@drawable/soup_cat"
-                android:scaleType="fitCenter" />
-
-        </TableRow>
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-        </TableRow>
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
+                android:scaleType="fitCenter"
+                android:layout_weight="0.35" />
 
             <ImageButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/imageButton3"
                 android:src="@drawable/meat_cat"
-                android:scaleType="fitCenter" />
-
-            <ImageButton
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:id="@+id/imageButton4"
-                android:src="@drawable/chicken_cat"
                 android:scaleType="fitCenter"
-                android:layout_weight="1" />
+                android:layout_weight="0.35" />
+
         </TableRow>
 
         <TableRow
@@ -71,22 +55,31 @@
             <ImageButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:id="@+id/imageButton4"
+                android:src="@drawable/chicken_cat"
+                android:scaleType="fitCenter"
+                android:layout_weight="0.35" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:id="@+id/imageButton5"
                 android:src="@drawable/vtoroe_cat"
-                android:scaleType="fitCenter" />
+                android:scaleType="fitCenter"
+                android:layout_weight="0.35" />
 
             <ImageButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/imageButton6"
                 android:src="@drawable/fish_cat"
-                android:scaleType="fitCenter" />
+                android:scaleType="fitCenter"
+                android:layout_weight="0.35" />
         </TableRow>
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:baselineAligned="false">
+            android:layout_height="match_parent">
 
             <ImageButton
                 android:layout_width="wrap_content"
@@ -94,26 +87,29 @@
                 android:id="@+id/imageButton7"
                 android:src="@drawable/vegetables_cat"
                 android:scaleType="fitCenter"
-                android:layout_gravity="bottom" />
+                android:layout_gravity="bottom"
+                android:layout_weight="0.35" />
 
             <ImageButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/imageButton8"
                 android:src="@drawable/vypechka_cat"
-                android:scaleType="fitCenter" />
-        </TableRow>
-
-        <TableRow
-            android:layout_width="fill_parent"
-            android:layout_height="match_parent">
+                android:scaleType="fitCenter"
+                android:layout_weight="0.35" />
 
             <ImageButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/drinksButton"
                 android:src="@drawable/drinks_cat"
-                android:scaleType="fitCenter" />
+                android:scaleType="fitCenter"
+                android:layout_weight="0.35" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent">
 
             <ImageButton
                 android:layout_width="wrap_content"
