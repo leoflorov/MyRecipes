@@ -7,11 +7,19 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="30sp"
-        android:layout_marginTop="55dp"
+        android:layout_marginTop="114dp"
         android:gravity="center"
         android:id="@+id/textView"
-        android:layout_centerHorizontal="true"
         android:textColor="@android:color/holo_red_light"
-        android:text="@string/add_recipe_logo"/>
+        android:text="@string/add_recipe_logo"
+        android:layout_below="@+id/view"
+        android:layout_centerHorizontal="true" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/select_cat_spinner">
+    </Spinner>
+
 
 </RelativeLayout>
