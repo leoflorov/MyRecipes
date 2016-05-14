@@ -24,22 +24,62 @@
 
             <ImageButton
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/imageButton"
+                android:layout_height="200dp"
+                android:id="@+id/saladButton"
                 android:src="@drawable/salad_cat"
                 android:scaleType="fitCenter"
                 android:layout_weight="1"
                 android:onClick="saladCatButton"
-                android:contentDescription="@string/salad_descr" />
+                android:contentDescription="@string/salad_descr"
+                android:cropToPadding="false"
+                android:background="#ffffff"
+                android:padding="5dp"
+                android:clickable="true"
+                android:layout_marginRight="1.5dp" />
 
             <ImageButton
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/imageButton2"
+                android:layout_height="200dp"
+                android:id="@+id/soupButton"
                 android:src="@drawable/soup_cat"
                 android:scaleType="fitCenter"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:padding="5dp"
+                android:contentDescription="@string/name_soupButton"
+                android:layout_marginLeft="1.5dp" />
 
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="@string/name_saladButton"
+                android:id="@+id/button_salad_bottom"
+                android:onClick="saladCatButton"
+                android:layout_column="0"
+                android:layout_weight="1"
+                android:padding="-5dp"
+                android:background="#ffffff"
+                android:layout_marginBottom="5dp"
+                android:clickable="true"
+                android:layout_marginRight="1.5dp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="@string/name_soupButton"
+                android:id="@+id/button_soup_bottom"
+                android:layout_column="1"
+                android:layout_weight="1"
+                android:padding="-5dp"
+                android:background="#ffffff"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="1.5dp" />
         </TableRow>
 
         <TableRow
@@ -48,41 +88,117 @@
 
             <ImageButton
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/imageButton3"
+                android:layout_height="200dp"
+                android:id="@+id/meatButton"
                 android:src="@drawable/meat_cat"
                 android:scaleType="fitCenter"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:contentDescription="@string/name_meatButton"
+                android:padding="5dp"
+                android:layout_marginRight="1.5dp" />
 
             <ImageButton
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/imageButton4"
+                android:layout_height="200dp"
+                android:id="@+id/chickenButton"
                 android:src="@drawable/chicken_cat"
                 android:scaleType="fitCenter"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:contentDescription="@string/name_chickenButton"
+                android:padding="5dp"
+                android:layout_marginLeft="1.5dp" />
         </TableRow>
 
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="@string/name_meatButton"
+                android:id="@+id/button_meat_bottom"
+                android:onClick="saladCatButton"
+                android:layout_column="0"
+                android:layout_weight="1"
+                android:padding="-5dp"
+                android:background="#ffffff"
+                android:layout_marginBottom="5dp"
+                android:clickable="true"
+                android:layout_marginRight="1.5dp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="@string/name_chickenButton"
+                android:id="@+id/button_chicken_bottom"
+                android:layout_column="1"
+                android:layout_weight="1"
+                android:padding="-5dp"
+                android:background="#ffffff"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="1.5dp" />
+        </TableRow>
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
             <ImageButton
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/imageButton5"
+                android:layout_height="200dp"
+                android:id="@+id/vtoroeButton"
                 android:src="@drawable/vtoroe_cat"
                 android:scaleType="fitCenter"
                 android:layout_weight="1"
-                android:textAlignment="center" />
+                android:background="#ffffff"
+                android:contentDescription="@string/name_vtoroeButton"
+                android:padding="5dp"
+                android:layout_marginRight="1.5dp" />
 
             <ImageButton
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/imageButton6"
+                android:layout_height="200dp"
+                android:id="@+id/fishButton"
                 android:src="@drawable/fish_cat"
                 android:scaleType="fitCenter"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:contentDescription="@string/name_fishButton"
+                android:padding="5dp"
+                android:layout_marginLeft="1.5dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="@string/name_vtoroeButton"
+                android:id="@+id/button_vtoroe_bottom"
+                android:onClick="saladCatButton"
+                android:layout_column="0"
+                android:layout_weight="1"
+                android:padding="-5dp"
+                android:background="#ffffff"
+                android:layout_marginBottom="5dp"
+                android:clickable="true"
+                android:layout_marginRight="1.5dp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="@string/name_fishButton"
+                android:id="@+id/button_fish_bottom"
+                android:layout_column="1"
+                android:layout_weight="1"
+                android:padding="-5dp"
+                android:background="#ffffff"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="1.5dp" />
         </TableRow>
 
         <TableRow
@@ -91,19 +207,58 @@
 
             <ImageButton
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/imageButton7"
+                android:layout_height="200dp"
+                android:id="@+id/vegetablesButton"
                 android:src="@drawable/vegetables_cat"
                 android:scaleType="fitCenter"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:contentDescription="@string/name_vegetablesButton"
+                android:padding="5dp"
+                android:layout_marginRight="1.5dp" />
 
             <ImageButton
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/imageButton8"
+                android:layout_height="200dp"
+                android:id="@+id/vypechkaButton"
                 android:src="@drawable/vypechka_cat"
                 android:scaleType="fitCenter"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:contentDescription="@string/name_vypechkaButton"
+                android:padding="5dp"
+                android:layout_marginLeft="1.5dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="@string/name_vegetablesButton"
+                android:id="@+id/button_vegetables_bottom"
+                android:onClick="saladCatButton"
+                android:layout_column="0"
+                android:layout_weight="1"
+                android:padding="-5dp"
+                android:background="#ffffff"
+                android:layout_marginBottom="5dp"
+                android:clickable="true"
+                android:layout_marginRight="1.5dp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="@string/name_vypechkaButton"
+                android:id="@+id/button_vypechka_bottom"
+                android:layout_column="1"
+                android:layout_weight="1"
+                android:padding="-5dp"
+                android:background="#ffffff"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="1.5dp" />
         </TableRow>
 
         <TableRow
@@ -112,19 +267,58 @@
 
             <ImageButton
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="200dp"
                 android:id="@+id/drinksButton"
                 android:src="@drawable/drinks_cat"
                 android:scaleType="fitCenter"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:contentDescription="@string/name_drinksButton"
+                android:padding="5dp"
+                android:layout_marginRight="1.5dp" />
 
             <ImageButton
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/imageButton10"
+                android:layout_height="200dp"
+                android:id="@+id/prazdnikiButton"
                 android:src="@drawable/prazdniki_cat"
                 android:scaleType="fitCenter"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:contentDescription="@string/name_prazdnikiButton"
+                android:padding="5dp"
+                android:layout_marginLeft="1.5dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="@string/name_drinksButton"
+                android:id="@+id/button_drinks_bottom"
+                android:onClick="saladCatButton"
+                android:layout_column="0"
+                android:layout_weight="1"
+                android:padding="-5dp"
+                android:background="#ffffff"
+                android:layout_marginBottom="5dp"
+                android:clickable="true"
+                android:layout_marginRight="1.5dp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="@string/name_prazdnikiButton"
+                android:id="@+id/button_prazdniki_bottom"
+                android:layout_column="1"
+                android:layout_weight="1"
+                android:padding="-5dp"
+                android:background="#ffffff"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="1.5dp" />
         </TableRow>
 
     </TableLayout>

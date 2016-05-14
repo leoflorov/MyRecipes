@@ -22,7 +22,8 @@ public class AddRecipeActivity extends Activity {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         return inflater.inflate(R.layout.addrecipe_layout, null);
     }
-        String[] categoriesSpinner = {"Салаты", "Супы", "Вторые блюда", "Напитки", "Десерты", "Курица", "Рыба", "Мясо", "Праздники"}{
+        String[] categoriesSpinner = {"Салаты", "Супы", "Вторые блюда", "Напитки", "Десерты", "Курица", "Рыба", "Мясо", "Праздники"};
+    {
 
         setContentView(R.layout.addrecipe_layout);
             Spinner spinner = (Spinner) findViewById(R.id.select_cat_spinner);

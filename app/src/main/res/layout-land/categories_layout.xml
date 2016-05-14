@@ -25,27 +25,46 @@
             <ImageButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/imageButton"
+                android:id="@+id/saladButton"
                 android:src="@drawable/salad_cat"
                 android:scaleType="fitCenter"
-                android:layout_weight="0.35" />
+                android:onClick="saladCatButton"
+                android:contentDescription="@string/salad_descr"
+                android:layout_weight="0.35"
+                android:background="#ffffff"
+                android:padding="5dp" />
 
             <ImageButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/imageButton2"
+                android:id="@+id/soupButton"
                 android:src="@drawable/soup_cat"
                 android:scaleType="fitCenter"
-                android:layout_weight="0.35" />
+                android:layout_weight="0.35"
+                android:background="#ffffff"
+                android:padding="5dp" />
 
             <ImageButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/imageButton3"
+                android:id="@+id/meatButton"
                 android:src="@drawable/meat_cat"
                 android:scaleType="fitCenter"
-                android:layout_weight="0.35" />
+                android:layout_weight="0.35"
+                android:background="#ffffff"
+                android:padding="5dp" />
 
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New Text"
+                android:id="@+id/textView2" />
         </TableRow>
 
         <TableRow
@@ -55,26 +74,32 @@
             <ImageButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/imageButton4"
+                android:id="@+id/chickenButton"
                 android:src="@drawable/chicken_cat"
                 android:scaleType="fitCenter"
-                android:layout_weight="0.35" />
+                android:layout_weight="0.35"
+                android:background="#ffffff"
+                android:padding="5dp" />
 
             <ImageButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/imageButton5"
+                android:id="@+id/vtoroeButton"
                 android:src="@drawable/vtoroe_cat"
                 android:scaleType="fitCenter"
-                android:layout_weight="0.35" />
+                android:layout_weight="0.35"
+                android:background="#ffffff"
+                android:padding="5dp" />
 
             <ImageButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/imageButton6"
+                android:id="@+id/fishButton"
                 android:src="@drawable/fish_cat"
                 android:scaleType="fitCenter"
-                android:layout_weight="0.35" />
+                android:layout_weight="0.35"
+                android:background="#ffffff"
+                android:padding="5dp" />
         </TableRow>
 
         <TableRow
@@ -84,19 +109,23 @@
             <ImageButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/imageButton7"
+                android:id="@+id/vegetablesButton"
                 android:src="@drawable/vegetables_cat"
                 android:scaleType="fitCenter"
                 android:layout_gravity="bottom"
-                android:layout_weight="0.35" />
+                android:layout_weight="0.35"
+                android:background="#ffffff"
+                android:padding="5dp" />
 
             <ImageButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/imageButton8"
+                android:id="@+id/vypechkaButton"
                 android:src="@drawable/vypechka_cat"
                 android:scaleType="fitCenter"
-                android:layout_weight="0.35" />
+                android:layout_weight="0.35"
+                android:background="#ffffff"
+                android:padding="5dp" />
 
             <ImageButton
                 android:layout_width="wrap_content"
@@ -104,7 +133,9 @@
                 android:id="@+id/drinksButton"
                 android:src="@drawable/drinks_cat"
                 android:scaleType="fitCenter"
-                android:layout_weight="0.35" />
+                android:layout_weight="0.35"
+                android:background="#ffffff"
+                android:padding="5dp" />
         </TableRow>
 
         <TableRow
@@ -114,9 +145,11 @@
             <ImageButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/imageButton10"
+                android:id="@+id/prazdnikiButton"
                 android:src="@drawable/prazdniki_cat"
-                android:scaleType="fitCenter" />
+                android:scaleType="fitCenter"
+                android:background="#ffffff"
+                android:padding="5dp" />
         </TableRow>
 
     </TableLayout>

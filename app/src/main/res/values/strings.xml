@@ -14,4 +14,14 @@
     <string name="salad_descr">Салаты</string>
     <string name="add_recipe_logo">Добавить\nрецепт</string>
     <string name="last_recipes_logo">Последние\nрецепты</string>
+    <string name="name_saladButton">Салаты</string>
+    <string name="name_soupButton">Супы</string>
+    <string name="name_meatButton">Мясо</string>
+    <string name="name_chickenButton">Курица</string>
+    <string name="name_vtoroeButton">Второе</string>
+    <string name="name_fishButton">Рыба</string>
+    <string name="name_vegetablesButton">Овощи</string>
+    <string name="name_vypechkaButton">Выпечка</string>
+    <string name="name_drinksButton">Напитки</string>
+    <string name="name_prazdnikiButton">Праздники</string>
 </resources>
