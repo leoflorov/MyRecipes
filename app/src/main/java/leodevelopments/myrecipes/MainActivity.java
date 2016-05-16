@@ -57,10 +57,10 @@ public class MainActivity extends AppCompatActivity{
 
                  }
 
-//                if (menuItem.getItemId() == R.id.nav_item_inbox) {
-//                    FragmentTransaction xfragmentTransaction = mFragmentManager.beginTransaction();
-//                    xfragmentTransaction.replace(R.id.containerView,new TabFragment()).commit();
-//                }
+                 if (menuItem.getItemId() == R.id.addrecipe_menu_button) {
+                     Intent intent = new Intent(MainActivity.this, AddRecipeActivity.class);
+                     startActivity(intent);
+                 }
 
                  return false;
             }

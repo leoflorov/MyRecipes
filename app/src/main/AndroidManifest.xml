@@ -19,6 +19,9 @@
         <activity android:name=".SaladGroupActivity"
             android:label="@string/appbar_name_salads">
         </activity>
+        <activity android:name=".AddRecipeActivity"
+            android:label="@string/add_recipe_bar_name">
+        </activity>
     </application>
 
 </manifest>

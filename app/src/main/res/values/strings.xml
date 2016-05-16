@@ -24,4 +24,5 @@
     <string name="name_vypechkaButton">Выпечка</string>
     <string name="name_drinksButton">Напитки</string>
     <string name="name_prazdnikiButton">Праздники</string>
+    <string name="add_recipe_bar_name">Добавить рецепт</string>
 </resources>
