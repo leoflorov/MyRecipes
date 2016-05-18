@@ -12,6 +12,6 @@
         android:id="@+id/textView"
         android:layout_centerHorizontal="true"
         android:textColor="@android:color/holo_green_dark"
-        android:text="Избранное"/>
+        android:text="@string/favorites_toolbar_name"/>
 
 </RelativeLayout>
