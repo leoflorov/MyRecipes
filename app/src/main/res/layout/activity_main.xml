@@ -38,6 +38,7 @@
             android:id="@+id/fab"
             android:layout_gravity="end|bottom"
             android:clickable="true"
+            android:elevation="@dimen/elevationFab"
             android:contentDescription="@string/fab" />
 
      </FrameLayout>

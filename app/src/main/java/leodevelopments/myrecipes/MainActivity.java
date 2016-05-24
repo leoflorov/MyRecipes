@@ -35,13 +35,11 @@ public class MainActivity extends AppCompatActivity{
         FAB.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-
-                Toast.makeText(MainActivity.this, "Добавить рецепт", Toast.LENGTH_SHORT).show();
-
-
+                Intent intent = new Intent(MainActivity.this, SaladGroupActivity.class);
+                startActivity(intent);
             }
         });
+
 
              mDrawerLayout = (DrawerLayout) findViewById(R.id.drawerLayout);
              mNavigationView = (NavigationView) findViewById(R.id.shitstuff) ;
@@ -111,4 +109,5 @@ public class MainActivity extends AppCompatActivity{
 
         return super.onOptionsItemSelected(item);
     }
+
 }
