@@ -2,6 +2,7 @@ package leodevelopments.myrecipes;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
@@ -21,7 +22,7 @@ public class MainActivity extends AppCompatActivity{
     FragmentManager mFragmentManager;
     FragmentTransaction mFragmentTransaction;
     Toolbar toolbar;
-    ImageButton FAB;
+    FloatingActionButton FAB;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,12 +32,14 @@ public class MainActivity extends AppCompatActivity{
         toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        FAB = (ImageButton) findViewById(R.id.fab);
+        FAB = (FloatingActionButton) findViewById(R.id.fab);
         FAB.setOnClickListener(new View.OnClickListener() {
+
             @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, SaladGroupActivity.class);
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, AddRecipeActivity.class);
                 startActivity(intent);
+
             }
         });
 

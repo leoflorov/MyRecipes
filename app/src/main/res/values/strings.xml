@@ -27,4 +27,5 @@
     <string name="add_recipe_bar_name">Добавить рецепт</string>
     <string name="fab">fab</string>
     <string name="favorites_toolbar_name">Избранное</string>
+    <string name="deleted_menu_item">Удалённые</string>
 </resources>

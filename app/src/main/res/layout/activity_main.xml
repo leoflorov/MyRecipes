@@ -1,18 +1,19 @@
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
     android:fitsSystemWindows="true"
     android:orientation="vertical">
 
     <android.support.v7.widget.Toolbar
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="?attr/actionBarSize"
         android:background="@android:color/holo_green_dark"
         android:id="@+id/toolbar"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:layout_scrollFlags="scroll|enterAlways"
         app:title="@string/app_name_main" />
 
     <android.support.v4.widget.DrawerLayout
@@ -20,28 +21,31 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_height="match_parent"
         android:layout_width="match_parent"
-        android:id="@+id/drawerLayout"
-        >
+        android:id="@+id/drawerLayout">
 
-    <FrameLayout
-        android:orientation="vertical"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/containerView">
+        <android.support.v7.internal.widget.ContentFrameLayout
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/containerView">
 
-        <ImageButton
-            android:layout_margin="15dp"
-            android:layout_width="70dp"
-            android:layout_height="70dp"
-            android:src="@android:drawable/ic_input_add"
-            android:background="@drawable/circle"
-            android:id="@+id/fab"
-            android:layout_gravity="end|bottom"
-            android:clickable="true"
-            android:elevation="@dimen/elevationFab"
-            android:contentDescription="@string/fab" />
+                <android.support.design.widget.FloatingActionButton
+                    android:layout_margin="16dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@android:drawable/ic_input_add"
+                    android:id="@+id/fab"
+                    android:layout_gravity="end|bottom"
+                    android:clickable="true"
+                    tools:elevation="10dp"
+                    app:backgroundTint="@color/red"
+                    android:elevation="@dimen/elevationFab"
+                    app:borderWidth="0dp"
+                    app:rippleColor="@color/ripple_material_light"
+                    android:contentDescription="@string/fab" />
 
-     </FrameLayout>
+        </android.support.v7.internal.widget.ContentFrameLayout>
 
     <android.support.design.widget.NavigationView
         xmlns:android="http://schemas.android.com/apk/res/android"
@@ -53,8 +57,10 @@
         app:itemTextColor="@color/black"
         app:menu="@menu/drawermenu"
         android:layout_marginTop="-24dp"
-        />
+        >
+
+    </android.support.design.widget.NavigationView>
 
     </android.support.v4.widget.DrawerLayout>
 
-    </LinearLayout>
+</LinearLayout>

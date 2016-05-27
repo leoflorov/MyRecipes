@@ -23,7 +23,7 @@
                 android:title="Spam"
                 android:icon="@drawable/spam"/>
             <item
-                android:title="Bin"
+                android:title="@string/deleted_menu_item"
                 android:icon="@drawable/bin"/>
         </menu>
     </item>

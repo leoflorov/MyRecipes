@@ -3,8 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="fill_parent"
     android:background="@color/light_green"
-    android:orientation="horizontal"
-    android:clickable="true"
+    android:orientation="vertical"
     android:fillViewport="false"
     android:focusable="false"
     android:focusableInTouchMode="false">
