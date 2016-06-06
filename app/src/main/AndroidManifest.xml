@@ -20,7 +20,8 @@
             android:label="@string/appbar_name_salads">
         </activity>
         <activity android:name=".AddRecipeActivity"
-            android:label="@string/add_recipe_bar_name">
+            android:label="@string/add_recipe_bar_name"
+            android:theme="@style/AddRecipe">
         </activity>
     </application>
 

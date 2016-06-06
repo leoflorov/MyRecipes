@@ -5,12 +5,11 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.AutoCompleteTextView;
 import android.widget.Spinner;
 import android.widget.Toast;
 
 public class AddRecipeActivity extends Activity {
-
-    String[] categoriesSpinner = {"Салаты", "Супы", "Вторые блюда", "Напитки", "Десерты", "Курица", "Рыба", "Мясо", "Праздники"};
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -18,25 +17,35 @@ public class AddRecipeActivity extends Activity {
         setContentView(R.layout.addrecipe_layout);
 
 
-            // Создаем адаптер ArrayAdapter с помощью массива строк и стандартной разметки элемета spinner
-            ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, categoriesSpinner);
-            adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+    String[] categoriesAutoComplete = {"Салаты", "Супы", "Вторые блюда", "Напитки", "Десерты", "Курица", "Рыба", "Мясо", "Праздники"};
 
-            Spinner spinner = (Spinner) findViewById(R.id.spinner);
-            spinner.setAdapter(adapter);
-        spinner.setPrompt("Категории рецептов");
-        spinner.setSelection(2);
-        spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
-            @Override
-            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                Toast.makeText(getBaseContext(), "Position =" + position, Toast.LENGTH_SHORT).show();
-            }
+        AutoCompleteTextView textView = (AutoCompleteTextView) findViewById(R.id.autoCompleteTextView1);
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_dropdown_item_1line, categoriesAutoComplete);
+        textView.setAdapter(adapter);
 
-            @Override
-            public void onNothingSelected(AdapterView<?> parent) {
 
-            }
-        });
+
+
+//
+//            // Создаем адаптер ArrayAdapter с помощью массива строк и стандартной разметки элемета spinner
+//            ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, categoriesSpinner);
+//            adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+//
+//            Spinner spinner = (Spinner) findViewById(R.id.spinner);
+//            spinner.setAdapter(adapter);
+//        spinner.setPrompt("Категории рецептов");
+//        spinner.setSelection(2);
+//        spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+//            @Override
+//            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+//                Toast.makeText(getBaseContext(), "Position =" + position, Toast.LENGTH_SHORT).show();
+//            }
+//
+//            @Override
+//            public void onNothingSelected(AdapterView<?> parent) {
+//
+//            }
+//        });
 
         }
     }

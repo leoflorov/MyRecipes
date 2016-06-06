@@ -14,7 +14,6 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
-
 public class MainActivity extends AppCompatActivity{
     DrawerLayout mDrawerLayout;
     NavigationView mNavigationView;

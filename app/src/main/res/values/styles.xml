@@ -6,4 +6,11 @@
         <item name="colorPrimary">@color/green</item>
         <item name="colorPrimaryDark">@color/dark_green</item>
     </style>
+
+    <style name="AddRecipe" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/yellow</item>
+        <item name="colorPrimaryDark">@color/dark_yellow</item>
+    </style>
+
 </resources>

@@ -8,5 +8,7 @@
     <color name="light_green">#a4dfa5</color>
     <color name="dark_green">#558000</color>
     <color name="red">#f27038</color>
+    <color name="yellow">#efe230</color>
+    <color name="dark_yellow">#d2c72b</color>
 
 </resources>

@@ -28,4 +28,7 @@
     <string name="fab">fab</string>
     <string name="favorites_toolbar_name">Избранное</string>
     <string name="deleted_menu_item">Удалённые</string>
+    <string name="add_category_view">Категория</string>
+    <string name="add_recipe_view">Название</string>
+    <string name="add_recipe_toolbar">Добавить рецепт</string>
 </resources>
