@@ -31,4 +31,5 @@
     <string name="add_category_view">Категория</string>
     <string name="add_recipe_view">Название</string>
     <string name="add_recipe_toolbar">Добавить рецепт</string>
+    <string name="second_activity_text">damn</string>
 </resources>
