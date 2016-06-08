@@ -10,5 +10,5 @@
     <color name="red">#f27038</color>
     <color name="yellow">#efe230</color>
     <color name="dark_yellow">#d2c72b</color>
-
+    <color name="ripple_material_light_1">#1f000000</color>
 </resources>
