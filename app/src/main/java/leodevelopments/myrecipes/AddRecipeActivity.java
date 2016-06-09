@@ -2,12 +2,8 @@ package leodevelopments.myrecipes;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
-import android.widget.Spinner;
-import android.widget.Toast;
 
 public class AddRecipeActivity extends Activity {
 
@@ -16,15 +12,14 @@ public class AddRecipeActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.addrecipe_layout);
 
-
-    String[] categoriesAutoComplete = {"Салаты", "Супы", "Вторые блюда", "Напитки", "Десерты", "Курица", "Рыба", "Мясо", "Праздники"};
+        String[] categoriesAutoComplete = {"Салаты", "Супы", "Вторые блюда", "Напитки", "Десерты", "Курица", "Рыба", "Мясо", "Праздники"};
 
         AutoCompleteTextView textView = (AutoCompleteTextView) findViewById(R.id.autoCompleteTextView1);
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_dropdown_item_1line, categoriesAutoComplete);
         textView.setAdapter(adapter);
+    }
 
-
-
+}
 
 //
 //            // Создаем адаптер ArrayAdapter с помощью массива строк и стандартной разметки элемета spinner
@@ -47,5 +42,3 @@ public class AddRecipeActivity extends Activity {
 //            }
 //        });
 
-        }
-    }

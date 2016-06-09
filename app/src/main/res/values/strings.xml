@@ -32,4 +32,8 @@
     <string name="add_recipe_view">Название</string>
     <string name="add_recipe_toolbar">Добавить рецепт</string>
     <string name="second_activity_text">damn</string>
+    <string name="ingridients_txt">Ингридиенты</string>
+    <string name="instruction_txt">Инструкция</string>
+    <string name="time_exp_txt">Время</string>
+    <string name="email">Email</string>
 </resources>
